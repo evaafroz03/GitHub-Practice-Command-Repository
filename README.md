@@ -23,5 +23,13 @@ A Git repository is a virtual storage of your project. It allows you to save ver
 
 $ git init
 
+$ git add README.md
+
+$ git commit -m "first commit"
+
+git remote add origin https://github.com/evaafroz03/GitHub-Practice-Command-Repository.git
+
+git push -u origin master
+
 
 
