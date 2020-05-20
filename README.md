@@ -13,9 +13,9 @@ CONFIGURATION GIT
 
 This command sets the author name and email address respectively to be used with all  repositories.
 
-git config –global user.name "EvaAfroz"
+$ git config –global user.name "EvaAfroz"
 
-git config –global user.email "EvaAfroz.evaafroz03@gmail.com"
+$ git config –global user.email "EvaAfroz.evaafroz03@gmail.com"
 
 INITIALIZING GIT REPOSITORY 
 
@@ -27,13 +27,13 @@ $ git add README.md
 
 $ git commit -m "first commit"
 
-git remote add origin https://github.com/evaafroz03/GitHub-Practice-Command-Repository.git
+$ git remote add origin https://github.com/evaafroz03/GitHub-Practice-Command-Repository.git
 
-git push -u origin master
+$ git push -u origin master
 
 CLONE REPOSITORY
 
-To get started, open a terminal window in the directory you wish to clone the repository files into, and run one of the git clone commands git clone <repository path>
+To get started, open a terminal window in the directory you wish to clone the repository files into, and run one of the git clone commands git clone <repository path> ,,it downloads repository files.
   
 $ git clone https://github.com/evaafroz03/GitHub-Practice-Command-Repository.git
 
@@ -46,7 +46,15 @@ $ git checkout master
 CREATE A BRANCH
 
 $ git checkout -b <name-of-branch>
+  
+MARGE A BRANCH WITH MASTER BRANCH
 
+$ git checkout <name-of-branch>
+$ git merge master
+
+VIEW CHANGES I MADE
+
+$ git status
 
 
 
