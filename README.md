@@ -56,6 +56,15 @@ VIEW CHANGES I MADE
 
 $ git status
 
+SHOW FILES DIFFERENCES THAT STILL NOT STAGED
+
+$ git diff 
+$ git diff "file path" -------> file differences not yet staged.
+$ git diff "commit id" -------> two commit differences.
+$ git diff [first-branch ] [second-branch] ------> content differences between two branches
+$ git diff --staged -----> file differences between staging and the last file version.
+
+
 
 
 
